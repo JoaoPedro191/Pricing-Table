@@ -85,6 +85,9 @@ section .first-content p{
   font-weight: 400;
   color: #828799;
   margin-top: 10px;
+  border-bottom: 1px solid #EEEEEE; ;
+  padding-bottom: 20px;
+  margin-right: 30px;
 }
 
 
@@ -110,7 +113,7 @@ section .money small{
 section .first-check{
   display: flex;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
   gap: 18px;
 }
 
@@ -214,11 +217,14 @@ section .body-content p{
   font-size: 14px;
   color: var(--gray);
   font-weight: 400;
+  border-bottom: 1px solid #EEEEEE; ;
+  padding-bottom: 15px;
+  margin-right: 30px;
 }
 
 section .body-content .button{
   position: relative;
-  top: 80px;
+  top: 83px;
   width: 292px;
   height: 49px;
   margin-bottom: 30px;
@@ -270,6 +276,9 @@ section .third-content .money-three p{
   color: var(--gray);
   font-size: 14px;
   font-weight: 400;
+  border-bottom: 1px solid #EEEEEE; ;
+  padding-bottom: 20px;
+  margin-right: 30px;
 }
 
 section .third-content  button{
