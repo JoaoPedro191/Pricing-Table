@@ -61,7 +61,7 @@ main{
 
 section{
   display: grid;
-  grid-template-columns: repeat(3, 355px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   height: 470px;
 }
@@ -103,12 +103,10 @@ section .money span{
   color: #828799;
 }
 
-
 section .money small{
   font-size: 18px;
   font-weight: bold;
 }
-
 
 section .first-check{
   display: flex;
@@ -170,7 +168,7 @@ section .header-content{
 
 section .header-content h1{
     font-size: 20px;
-     font-weight: 600;
+    font-weight: 600;
     color: var(--blue);
     padding: 25px 0 25px 30px;
 }
